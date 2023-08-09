@@ -52,12 +52,12 @@ struct Plus: View {
                     }
                     ScrollView(.vertical){
                         
-                        updatePost(post1: "게시물", post2: "게시물2")
-                        updatePost(post1: "게시물", post2: "게시물2")
-                        updatePost(post1: "게시물", post2: "게시물2")
-                        updatePost(post1: "게시물", post2: "게시물2")
-                        updatePost(post1: "게시물", post2: "게시물2")
-                        updatePost(post1: "게시물", post2: "게시물2")
+                        updatePost(post1: "post1", post2: "post2")
+                        updatePost(post1: "post1", post2: "post2")
+                        updatePost(post1: "post1", post2: "post2")
+                        updatePost(post1: "post1", post2: "post2")
+                        updatePost(post1: "post1", post2: "post2")
+                        updatePost(post1: "post1", post2: "post2")
                 }
             }
         }

@@ -45,24 +45,24 @@ struct Home: View {
                 ScrollView(.horizontal) {
                     VStack {
                         HStack {
-                            story(image: "스토리 있는 프사", id: "2is.hwa")
-                            story(image: "스토리 있는 프사", id: "kyumbi.md")
-                            story(image: "스토리 읽은 프사", id: "zI.su_")
+                            story(image: "unread story", id: "2is.hwa")
+                            story(image: "unread story", id: "kyumbi.md")
+                            story(image: "read story", id: "zI.su_")
                             VStack {
-                                Image("태윤 프사")
+                                Image("ty image")
                                     .resizable()
                                     .clipShape(Circle())
                                     .frame(width: 80, height: 85)
                                 Text("taeyoon_070403")
                                     .font(.system(size:13))
                             }
-                            story(image: "스토리 읽은 프사", id: "yena5511")
+                            story(image: "read story", id: "yena5511")
                         }
                     }
                 }
                 ScrollView(.vertical) {
-                    post(story: "스토리 있는 프사", id: "2is.hwa", image: "게시물", heart: "m2iri", heartnumber: "1,026", time: "2시간 전", introduce: "몇살이게")
-                    post(story: "스토리 있는 프사", id: "2is.hwa", image: "게시물2", heart: "yena5511", heartnumber: "2,007", time: "13시간 전", introduce: "귀엽지")
+                    post(story: "unread story", id: "2is.hwa", image: "post1", heart: "m2iri", heartnumber: "1,026", time: "2시간 전", introduce: "몇살이게")
+                    post(story: "unread story", id: "2is.hwa", image: "post2", heart: "yena5511", heartnumber: "2,007", time: "13시간 전", introduce: "귀엽지")
                 }
             }
         }
@@ -120,7 +120,7 @@ struct Home: View {
         }
         VStack {
             HStack {
-                Image("좋아요 누른 사람")
+                Image("heart member")
                     .resizable()
                     .frame(width: 40, height:30)
                     .padding(.leading,10)

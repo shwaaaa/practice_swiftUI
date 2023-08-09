@@ -39,23 +39,23 @@ struct DMView: View {
                 .textFieldStyle(.roundedBorder)
             ScrollView(.horizontal) {
                 HStack {
-                    Image("메모")
+                    Image("my memo")
                         .resizable()
                         .frame(width:95,height:145)
                         .padding(.leading,10)
-                    Image("태윤 메모")
+                    Image("ty memo")
                         .resizable()
                         .frame(width:95,height:155)
                         .padding(.top,-10)
-                    Image("겸비 메모")
+                    Image("kb memo")
                         .resizable()
                         .frame(width:95,height:155)
                         .padding(.top,-10)
-                    Image("유나 메모")
+                    Image("yn memo")
                         .resizable()
                         .frame(width:95,height:155)
                         .padding(.top,-10)
-                    Image("예찬 메모")
+                    Image("yc memo")
                         .resizable()
                         .frame(width:95,height:155)
                         .padding(.top,-10)
@@ -77,7 +77,7 @@ struct DMView: View {
                 }
                 
                 HStack {
-                    Image("스토리 읽은 프사")
+                    Image("read story")
                         .resizable()
                         .frame(width: 80, height: 80)
                         .padding(.leading, 8)
@@ -99,7 +99,7 @@ struct DMView: View {
                     
                 }
                 HStack {
-                    Image("태윤 프사")
+                    Image("ty image")
                         .resizable()
                         .frame(width: 80, height: 80)
                         .padding(.leading, 8)
@@ -125,7 +125,7 @@ struct DMView: View {
                 }
                 
                 HStack {
-                    Image("스토리 읽은 프사")
+                    Image("read story")
                         .resizable()
                         .frame(width: 80, height: 80)
                         .padding(.leading, 8)
@@ -151,7 +151,7 @@ struct DMView: View {
                 }
                 
                 HStack {
-                    Image("스토리 있는 프사")
+                    Image("unread story")
                         .resizable()
                         .frame(width: 80, height: 80)
                         .padding(.leading, 8)
@@ -187,7 +187,7 @@ struct DMView: View {
                 }
                 
                 HStack {
-                    Image("스토리 있는 프사")
+                    Image("unread story")
                         .resizable()
                         .frame(width: 80, height: 80)
                         .padding(.leading, 8)
@@ -213,7 +213,7 @@ struct DMView: View {
                 }
             
             HStack {
-                Image("스토리 읽은 프사")
+                Image("read story")
                     .resizable()
                     .frame(width: 80, height: 80)
                     .padding(.leading, 8)
@@ -239,7 +239,7 @@ struct DMView: View {
             }
             VStack {
                 HStack {
-                    Image("스토리 있는 프사")
+                    Image("unread story")
                         .resizable()
                         .frame(width: 80, height: 80)
                         .padding(.leading, 8)
@@ -264,7 +264,7 @@ struct DMView: View {
                     
                 }
                 HStack {
-                    Image("스토리 읽은 프사")
+                    Image("read story")
                         .resizable()
                         .frame(width: 80, height: 80)
                         .padding(.leading, 8)

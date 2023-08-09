@@ -23,7 +23,7 @@ struct ProfileView: View {
             }
             ScrollView(.vertical) {
                 HStack {
-                    Image("스토리 읽은 프사")
+                    Image("read story")
                         .resizable()
                         .frame(width:110,height:110)
                         .padding(.leading,15)
@@ -102,7 +102,7 @@ struct ProfileView: View {
                         .frame(width:75,height:90)
                         .padding(.leading,3)
                         .padding(.top,10)
-                    Image("새로 만들기")
+                    Image("make new")
                         .resizable()
                         .frame(width:70,height:85)
                         .padding(.leading,3)
@@ -140,7 +140,7 @@ struct ProfileView: View {
                     Spacer()
                 }
                 VStack {
-                    Image("게시물 없음")
+                    Image("nopost")
                         .resizable()
                         .frame(width:120,height:150)
                         .padding(.top,80)

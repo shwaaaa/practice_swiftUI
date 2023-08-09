@@ -34,7 +34,7 @@ struct heartAlarm: View {
                     .padding(.top, 5)
                 
                 HStack {
-                    Image("스토리 읽은 프사")
+                    Image("read story")
                         .resizable()
                         .frame(width:60, height:60)
                         .padding(.leading,15)
@@ -76,7 +76,7 @@ struct heartAlarm: View {
                     .padding(.top, 5)
                 
                 HStack {
-                    Image("스토리 읽은 프사")
+                    Image("read story")
                         .resizable()
                         .frame(width:60, height:60)
                         .padding(.leading,-10)
@@ -110,7 +110,7 @@ struct heartAlarm: View {
                 }
                 
                 HStack {
-                    Image("태윤 프사")
+                    Image("ty image")
                         .resizable()
                         .frame(width:60, height:65)
                         .padding(.leading,-10)
@@ -118,14 +118,14 @@ struct heartAlarm: View {
                     Text("taeyoon_070403 님이 회원님의 게시물을 좋아합니다.")
                         .font(.system(size: 15))
                         .padding(.top,-8)
-                    Image("게시물")
+                    Image("post1")
                         .resizable()
                         .frame(width: 53, height: 50)
                         .padding(.leading,20)
                         .padding(.top,-8)
                 }
                 HStack {
-                    Image("스토리 있는 프사")
+                    Image("unread story")
                         .resizable()
                         .frame(width:60, height:60)
                         .padding(.leading,-10)
@@ -133,7 +133,7 @@ struct heartAlarm: View {
                     Text("kyumbi.md 님이 회원님의 게시물을 좋아합니다.")
                         .font(.system(size: 15))
                         .padding(.top,-8)
-                    Image("게시물2")
+                    Image("post2")
                         .resizable()
                         .frame(width: 53, height: 50)
                         .padding(.leading,60)
@@ -155,7 +155,7 @@ struct heartAlarm: View {
             
             VStack {
                 HStack {
-                    Image("스토리 읽은 프사")
+                    Image("read story")
                         .resizable()
                         .frame(width:60, height:60)
                         .padding(.leading,-10)
@@ -186,7 +186,7 @@ struct heartAlarm: View {
                     }
                 }
                 HStack {
-                    Image("스토리 있는 프사")
+                    Image("unread story")
                         .resizable()
                         .frame(width:60, height:65)
                         .padding(.leading,15)
@@ -194,7 +194,7 @@ struct heartAlarm: View {
                     Text("m2iri 님이 회원님의 게시물을 좋아합니다.")
                         .font(.system(size: 15))
                         .padding(.top,-8)
-                    Image("게시물")
+                    Image("post")
                         .resizable()
                         .frame(width: 53, height: 50)
                         .padding(.leading,95)
@@ -203,7 +203,7 @@ struct heartAlarm: View {
                 }
                 
                 HStack {
-                    Image("스토리 있는 프사")
+                    Image("unread story")
                         .resizable()
                         .frame(width:60, height:60)
                         .padding(.leading,15)
@@ -236,7 +236,7 @@ struct heartAlarm: View {
                 }
                 
                 HStack {
-                    Image("스토리 읽은 프사")
+                    Image("read story")
                         .resizable()
                         .frame(width:60, height:60)
                         .padding(.leading,-15)
@@ -244,7 +244,7 @@ struct heartAlarm: View {
                     Text("_xodus_7 님이 회원님의 게시물을 좋아합니다.")
                         .font(.system(size: 15))
                         .padding(.top,-8)
-                    Image("게시물2")
+                    Image("post2")
                         .resizable()
                         .frame(width: 53, height: 50)
                         .padding(.leading,65)
@@ -252,7 +252,7 @@ struct heartAlarm: View {
                 }
                 
                 HStack {
-                    Image("스토리 읽은 프사")
+                    Image("read story")
                         .resizable()
                         .frame(width:60, height:60)
                         .padding(.leading,-10)
@@ -260,7 +260,7 @@ struct heartAlarm: View {
                     Text("ye_dhns 님이 회원님의 게시물을 좋아합니다.")
                         .font(.system(size: 15))
                         .padding(.top,-8)
-                    Image("게시물2")
+                    Image("post2")
                         .resizable()
                         .frame(width: 53, height: 50)
                         .padding(.leading,73)

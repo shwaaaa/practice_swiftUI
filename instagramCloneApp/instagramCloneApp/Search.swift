@@ -19,14 +19,14 @@ struct Search: View {
                     .padding(.top,-20)
                     .textFieldStyle(.roundedBorder)
                 
-                searchPost(post1: "게시물", post2: "게시물2", post3: "게시물")
-                searchPost(post1: "게시물2", post2: "게시물", post3: "게시물2")
-                searchPost(post1: "게시물", post2: "게시물2", post3: "게시물")
-                searchPost(post1: "게시물2", post2: "게시물", post3: "게시물2")
-                searchPost(post1: "게시물", post2: "게시물2", post3: "게시물")
-                searchPost(post1: "게시물2", post2: "게시물", post3: "게시물2")
-                searchPost(post1: "게시물", post2: "게시물2", post3: "게시물")
-                searchPost(post1: "게시물2", post2: "게시물", post3: "게시물2")
+                searchPost(post1: "post1", post2: "post2", post3: "post1")
+                searchPost(post1: "post2", post2: "post1", post3: "post2")
+                searchPost(post1: "post1", post2: "post2", post3: "post1")
+                searchPost(post1: "post2", post2: "post1", post3: "post2")
+                searchPost(post1: "post1", post2: "post2", post3: "post1")
+                searchPost(post1: "post2", post2: "post1", post3: "post2")
+                searchPost(post1: "post1", post2: "post2", post3: "post1")
+                searchPost(post1: "post2", post2: "post1", post3: "post2")
                 
             }
         }
