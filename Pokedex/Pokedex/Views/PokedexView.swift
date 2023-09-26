@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Kingfisher
 
 struct PokedexView: View {
     private let gridItems = [GridItem(.flexible()), GridItem(.flexible())]
@@ -18,7 +19,23 @@ struct PokedexView: View {
                     ForEach(searchText == "" ? pokemon : pokemon.filter({
                         $0.name.contains(searchText.lowercased())
                     })) { entry in
-                        PokemonCell()
+                        VStack(alignment: .leading) {
+                            Text(entry.name)
+                                .font(.headline)
+                                .foregroundColor(.white)
+                                .padding(.top,8)
+                                .padding(.leading)
+                                
+                            KFImage(URL(string: entry.url))
+                                    .resizable()
+                                    .scaledToFit()
+                                    .frame(width: 68, height: 68)
+                                    .padding([.bottom, .trailing], 4)
+                                    .padding(.leading,100)
+                        }
+                    .background(Color.blue)
+                    .cornerRadius(12)
+                    .shadow(color: .blue, radius: 6)
                     }
                 })
                 .searchable(text: $searchText)

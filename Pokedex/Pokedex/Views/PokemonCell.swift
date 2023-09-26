@@ -12,7 +12,6 @@ struct PokemonCell: View {
     @State var pokemon = [PokemonEntry]()
     
     var body: some View {
-        ZStack {
             VStack(alignment: .leading) {
                 Text("name")
                     .font(.headline)
@@ -27,7 +26,6 @@ struct PokemonCell: View {
                         .padding([.bottom, .trailing], 4)
                         .padding(.leading,100)
             }
-        }
         .background(Color.blue)
         .cornerRadius(12)
         .shadow(color: .blue, radius: 6)
